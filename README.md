@@ -1,10 +1,10 @@
-# Delivery Cost Calculation API 🚚
+# Delivery Cost Calculation API 
 
 This project is a RESTful API built using Python and Flask. It calculates the **minimum cost** to fulfill a customer order using products from three distribution centers (C1, C2, C3) and delivers them to a customer location (L1). Only **one delivery vehicle** is used, starting from any of the centers.
 
 ---
 
-## 🧠 Logic Summary
+##  Logic Summary
 
 - Products A-I are stored in different centers:
   - C1 → A, B, C
@@ -48,7 +48,7 @@ The server will run at `http://127.0.0.1:5000`
 
 ---
 
-## 📬 API Endpoint
+##  API Endpoint
 
 ### `POST /calculateCost`
 
@@ -73,7 +73,7 @@ The server will run at `http://127.0.0.1:5000`
 
 ---
 
-## 🧪 Testing with Postman
+##  Testing with Postman
 
 1. Open **Postman**.
 2. Create a new **POST request** to:
@@ -96,7 +96,7 @@ The server will run at `http://127.0.0.1:5000`
 
 ---
 
-## ✅ Sample Test Cases
+##  Sample Test Cases
 
 | Order                                  | Output |
 |----------------------------------------|--------|
@@ -107,7 +107,7 @@ The server will run at `http://127.0.0.1:5000`
 
 ---
 
-## 📂 Files Overview
+##  Files Overview
 
 | File           | Description                           |
 |----------------|---------------------------------------|
@@ -117,7 +117,7 @@ The server will run at `http://127.0.0.1:5000`
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 - Add authentication layer
 - Track order status or delivery route
