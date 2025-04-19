@@ -78,7 +78,7 @@ The server will run at `http://127.0.0.1:5000`
 1. Open **Postman**.
 2. Create a new **POST request** to:
    ```
-   http://127.0.0.1:5000/calculateCost
+   https://twf-flours-api-assignment-ieyr.onrender.com/calculateCost
    ```
 3. Go to the **Body** tab → select **raw** → choose **JSON**.
 4. Paste your JSON order (example):
